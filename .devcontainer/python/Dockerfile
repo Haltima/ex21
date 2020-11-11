@@ -1,5 +1,4 @@
-FROM python:3.8-slim
-
+FROM python:3.7.3
 WORKDIR /tmp/work
 
 COPY requirements.txt ${PWD}
